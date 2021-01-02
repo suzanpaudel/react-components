@@ -28,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
     padding: '5px 20px',
     borderRadius: '50px',
     border: '3px solid #bf732c',
+    [theme.breakpoints.down('md')]: {
+      border: 'none',
+      padding: '5px 8px',
+    },
   },
 }));
 
@@ -42,7 +46,7 @@ const BreadcrumbStyle = () => {
     <Grid container direction='row'>
       <Grid item container direction='column' justify='center' spacing={2}>
         <Grid item>
-          <Typography variant='h5' component='h2' align='center'>
+          <Typography variant='h5' component='h2' align='center' gutterBottom>
             Breadcrumb component made by Sujan
           </Typography>
         </Grid>

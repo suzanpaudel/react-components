@@ -7,7 +7,12 @@ export default createMuiTheme({
         padding: '10px 30px',
         borderRadius: '200px',
         height: 45,
-        width: 245,
+        minWidth: 150,
+      },
+    },
+    MuiTypography: {
+      body2: {
+        textAlign: 'justify',
       },
     },
   },

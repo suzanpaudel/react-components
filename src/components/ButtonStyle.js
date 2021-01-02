@@ -40,7 +40,7 @@ const ButtonStyle = () => {
         spacing={2}
       >
         <Grid item>
-          <Typography variant='h5' component='h2'>
+          <Typography variant='h5' component='h2' align='center' gutterBottom>
             Button component made by Sujan
           </Typography>
         </Grid>
