@@ -129,8 +129,14 @@ const MenuBarStyles = () => {
         spacing={2}
       >
         <Grid item>
-          <Typography variant='h5' component='h2' align='center' gutterBottom>
-            MenuBar component made by Sujan
+          <Typography
+            variant='h5'
+            component='h2'
+            align='center'
+            gutterBottom
+            style={{ marginTop: '50px' }}
+          >
+            MenuBar Component
           </Typography>
         </Grid>
 

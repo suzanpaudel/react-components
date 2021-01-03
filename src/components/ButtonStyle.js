@@ -41,14 +41,20 @@ const ButtonStyle = () => {
         spacing={2}
       >
         <Grid item>
-          <Typography variant='h5' component='h2' align='center' gutterBottom>
-            Button component made by Sujan
+          <Typography
+            variant='h5'
+            component='h2'
+            align='center'
+            gutterBottom
+            style={{ marginTop: '50px' }}
+          >
+            Button Component
           </Typography>
         </Grid>
         <Grid item>
           <Button
             variant='outlined'
-            color='primary'
+            color='secondary'
             onClick={() => alert('You clicked a button')}
           >
             Login

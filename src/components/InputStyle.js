@@ -18,7 +18,6 @@ import {
   KeyboardDatePicker,
 } from '@material-ui/pickers';
 
-import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 
 const useStyles = makeStyles((theme) => ({
@@ -62,8 +61,14 @@ const InputStyle = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <Typography variant='h5' component='h2' align='center' gutterBottom>
-          Input component made by Sujan
+        <Typography
+          variant='h5'
+          component='h2'
+          align='center'
+          gutterBottom
+          style={{ marginTop: '50px' }}
+        >
+          Input Component
         </Typography>
       </Grid>
       <Grid container direction='row' justify='center'>
